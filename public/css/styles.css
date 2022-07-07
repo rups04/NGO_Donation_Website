@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px/1.6 'system-ui';
+  background-color: white;
+
+}
+
+
+
+.container{
+
+  height: 90vh;
+  width: auto;
+  display: grid;
+  place-items: center;
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1451342695181-17c97b85aab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80') no-repeat center/cover;
+
+
+}
+.blur{
+  height: 100%;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1451342695181-17c97b85aab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80') no-repeat center/cover;
+  filter: blur(6px);
+  clip-path: inset(5rem);
+}
+.content{
+  border-radius: 0.5rem;
+  z-index: 2;
+  position: absolute;
+  background: #fff6;
+  width: calc(100% - 10rem);
+  height: calc(100% - 10rem);
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  color: #2c2c2c;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-right: 35rem;
+  color: grey;
+}
+
+a:hover{
+  background-color: #EEEEEE;
+}
+.nav-item{
+  padding: 0 18px;
+  color:grey;
+}
+
+.nav-link{
+font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+
+footer{
+  margin-left: 30px;
+}
