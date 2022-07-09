@@ -46,6 +46,14 @@ variable "ebs" {
 variable "Github" {
   description = "Name of github repository"
   default     = "https://github.com/rups04/NGO_Donation_Website.git"
+  #default     = "https://github.com/johnpapa/node-hello.git"
+  #default     =  "https://github.com/rups04/To_Do_List.git"
+}
+
+variable "js_file" {
+  description = "name of the js file"
+  default     = "app.js"
+ # default     = "index.js"
 }
 
 
